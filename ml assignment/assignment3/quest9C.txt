@@ -1,0 +1,21 @@
+1. Purpose of Curve Fitting
+Data Modeling: Curve fitting helps to create a model that approximates the relationship between variables. This is useful for understanding trends and making predictions.
+Prediction: Once a curve is fitted, it can be used to predict values for new or unseen data points.
+Data Smoothing: It can smooth out noisy data to reveal underlying patterns or trends.
+
+2. Methods of Curve Fitting
+Least Squares Method: The most common method for fitting a curve. It minimizes the sum of the squares of the differences between the observed values and the values predicted by the model.
+
+Regularization Techniques: Include methods like Ridge and Lasso regression that prevent overfitting by adding a penalty term to the loss function.
+
+3. Overfitting and Underfitting
+Overfitting: Occurs when the model is too complex and fits the training data too closely, capturing noise rather than the underlying trend. This results in poor generalization to new data.
+
+Underfitting: Occurs when the model is too simple to capture the underlying trend in the data. This results in high bias and poor performance on both training and test data.
+
+4. Model Selection and Validation
+Cross-Validation: Used to evaluate the performance of the model by splitting the data into training and validation sets. This helps to ensure that the model generalizes well to new data.
+
+5. Practical Considerations
+Choosing the Right Model: The choice of model depends on the nature of the data and the problem at hand. Domain knowledge and exploratory data analysis can guide model selection.
+
